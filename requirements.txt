@@ -1,5 +1,6 @@
 opencv-python
 numpy
+websockets
 asyncio
 fastapi
 uvicorn
