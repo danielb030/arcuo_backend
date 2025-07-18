@@ -147,4 +147,4 @@ async def websocket_endpoint(websocket: WebSocket):
         print(f"WebSocket error: {e}")
 
 if __name__ == "__main__":
-    uvicorn.run("arcuo_websocket_server:app", host="0.0.0.0", port=3000, reload=True)
+    uvicorn.run("temp:app", host="0.0.0.0", port=8765, reload=True)
